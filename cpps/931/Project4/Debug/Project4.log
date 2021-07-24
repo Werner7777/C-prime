@@ -1,0 +1,6 @@
+﻿  源.cpp
+E:\cppseries\C++prime\931\Project4\源.cpp(11,53): error C2676: 二进制“+”:“std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>”不定义该运算符或到预定义运算符可接收的类型的转换
+          with
+          [
+              _Ty=int
+          ]

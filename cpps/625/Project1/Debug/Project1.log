@@ -1,0 +1,3 @@
+﻿  源.cpp
+E:\cppseries\C++prime\625\Project1\源.cpp(7,10): error C2440: “return”: 无法从“std::string”转换为“int”
+E:\cppseries\C++prime\625\Project1\源.cpp(7,9): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
