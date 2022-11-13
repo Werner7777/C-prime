@@ -1,0 +1,7 @@
+﻿  源.cpp
+E:\cppseries\C++prime\cpps\1136\Project1\源.cpp(10,19): error C3861: “buildMap”: 找不到标识符
+E:\cppseries\C++prime\cpps\1136\Project1\源.cpp(14,17): error C2079: “stream”使用未定义的 class“std::basic_istringstream<char,std::char_traits<char>,std::allocator<char>>”
+E:\cppseries\C++prime\cpps\1136\Project1\源.cpp(14,29): error C2440: “初始化”: 无法从“std::string”转换为“int”
+E:\cppseries\C++prime\cpps\1136\Project1\源.cpp(14,23): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+E:\cppseries\C++prime\cpps\1136\Project1\源.cpp(17,17): error C2677: 二进制“>>”: 没有找到接受“std::string”类型的全局运算符(或没有可接受的转换)
+E:\cppseries\C++prime\cpps\1136\Project1\源.cpp(23,12): error C3861: “transform”: 找不到标识符
