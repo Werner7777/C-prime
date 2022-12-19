@@ -1,8 +1,12 @@
 #Set the minimum version of CMake that can be used
 cmake_minimum_required(VERSION 3.0)
 
+
 #Set the project name
-project(HELLO)
+project(chapter2)  #PROJECT：工程的名称，和支持的语言
+
+#Add include path
+include_directories(src)
 
 #Add an executable
-Add_executable(hello_cmake main.cpp)
+Add_executable(BookStore BookStore.cpp src/Sales_data.h) #可执行文件的名称，和相关源文件；可以用空格或者分号加更多的文件，这样就可以同时编译多个源文件

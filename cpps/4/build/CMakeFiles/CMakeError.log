@@ -1,0 +1,52 @@
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc.exe: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc.exe: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++.exe: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++.exe: fatal error: no input files
+compilation terminated.
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/cppseries/C++prime/C-prime/cpps/4/build/CMakeFiles/CMakeScratch/TryCompile-z656nq
+
+Run Build Command(s):E:/Vscode/gcc/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_38634/fast && E:/Vscode/gcc/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_38634.dir\build.make CMakeFiles/cmTC_38634.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/cppseries/C++prime/C-prime/cpps/4/build/CMakeFiles/CMakeScratch/TryCompile-z656nq'
+Building C object CMakeFiles/cmTC_38634.dir/CMakeCCompilerABI.c.obj
+E:\Vscode\gcc\TDM-GCC-64\bin\gcc.exe    -o CMakeFiles\cmTC_38634.dir\CMakeCCompilerABI.c.obj -c E:\Vscode\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCCompilerABI.c
+E:\Vscode\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCCompilerABI.c:27:1: fatal error: error closing C:\Users\admin\AppData\Local\Temp\ccUImPHx.s: No space left on device
+ }
+ ^
+compilation terminated.
+CMakeFiles\cmTC_38634.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_38634.dir/CMakeCCompilerABI.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_38634.dir/CMakeCCompilerABI.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/cppseries/C++prime/C-prime/cpps/4/build/CMakeFiles/CMakeScratch/TryCompile-z656nq'
+Makefile:126: recipe for target 'cmTC_38634/fast' failed
+mingw32-make.exe: *** [cmTC_38634/fast] Error 2
+
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: E:/cppseries/C++prime/C-prime/cpps/4/build/CMakeFiles/CMakeScratch/TryCompile-8y5qa8
+
+Run Build Command(s):E:/Vscode/gcc/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_c73f6/fast && E:/Vscode/gcc/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c73f6.dir\build.make CMakeFiles/cmTC_c73f6.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/cppseries/C++prime/C-prime/cpps/4/build/CMakeFiles/CMakeScratch/TryCompile-8y5qa8'
+Building CXX object CMakeFiles/cmTC_c73f6.dir/CMakeCXXCompilerABI.cpp.obj
+E:\Vscode\gcc\TDM-GCC-64\bin\c++.exe    -o CMakeFiles\cmTC_c73f6.dir\CMakeCXXCompilerABI.cpp.obj -c E:\Vscode\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp
+E:\Vscode\cmake-3.25.0-windows-x86_64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp:18:1: fatal error: error closing C:\Users\admin\AppData\Local\Temp\ccKxnoXa.s: No space left on device
+ }
+ ^
+compilation terminated.
+CMakeFiles\cmTC_c73f6.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_c73f6.dir/CMakeCXXCompilerABI.cpp.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_c73f6.dir/CMakeCXXCompilerABI.cpp.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/cppseries/C++prime/C-prime/cpps/4/build/CMakeFiles/CMakeScratch/TryCompile-8y5qa8'
+Makefile:126: recipe for target 'cmTC_c73f6/fast' failed
+mingw32-make.exe: *** [cmTC_c73f6/fast] Error 2
+
+
+
+

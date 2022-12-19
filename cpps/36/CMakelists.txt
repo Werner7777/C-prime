@@ -1,0 +1,12 @@
+#Set the minimum version of CMake that can be used
+cmake_minimum_required(VERSION 3.0)
+
+set(CMAKE_CXX_STANDARD 11)
+
+#Set the project name
+project(333)  #PROJECT：工程的名称，和支持的语言
+
+set(CMAKE_BUILD_TYPE "Debug")
+
+#Add an executable
+Add_executable(arr arr.cpp) #可执行文件的名称，和相关源文件；可以用空格或者分号加更多的文件，这样就可以同时编译多个源文件
